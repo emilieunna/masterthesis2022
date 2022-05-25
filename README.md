@@ -1,4 +1,4 @@
-# materthesis2022
+# masterthesis2022
 Master thesis from Roskilde University spring 2022 - Energy consumption of WordPress plugins
 
 Abstract for the thesis:
