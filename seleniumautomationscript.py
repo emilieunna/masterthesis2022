@@ -22,9 +22,6 @@ def spike():
         for line in firstfile:   
              # write content to second file
              secondfile.write(line)
-    #firstfile.close()
-    #secondfile.close()
-    #print("spike")
 
 
 def selenium_script_1():
