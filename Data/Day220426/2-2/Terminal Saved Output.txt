@@ -1,0 +1,81 @@
+pi@raspberrypi:~/Thesis $ python3 seleniumscriptsuperior.py
+Experiment started: 2022-04-26 14:11:14,510199
+script and time started at:  2022-04-26 14:18:14,776829
+script 1 run - time taken: 96,99786877632141
+script and time started at:  2022-04-26 14:22:12,038604
+script 2 run - time taken: 156,56660103797913
+script and time started at:  2022-04-26 14:27:08,862179
+script 3 run - time taken: 183,4661180973053
+script and time started at:  2022-04-26 14:32:32,567668
+script 4 run - time taken: 167,5297601222992
+script and time started at:  2022-04-26 14:37:40,331436
+script 5 run - time taken: 133,01029014587402
+script and time started at:  2022-04-26 14:42:13,590305
+script 6 run - time taken: 138,32226514816284
+script and time started at:  2022-04-26 14:46:52,175378
+script 7 run - time taken: 127,08707094192505
+script and time started at:  2022-04-26 14:51:19,525849
+script 8 run - time taken: 145,2674012184143
+script and time started at:  2022-04-26 14:56:05,052494
+Traceback (most recent call last):
+  File "/home/pi/Thesis/seleniumscriptsuperior.py", line 180, in <module>
+    selenium_script_1()
+  File "/home/pi/Thesis/seleniumscriptsuperior.py", line 29, in selenium_script_1
+    driver = webdriver.Chrome(options=options)
+  File "/usr/local/lib/python3.9/dist-packages/selenium/webdriver/chrome/webdriver.py", line 70, in __init__
+    super(WebDriver, self).__init__(DesiredCapabilities.CHROME['browserName'], "goog",
+  File "/usr/local/lib/python3.9/dist-packages/selenium/webdriver/chromium/webdriver.py", line 93, in __init__
+    RemoteWebDriver.__init__(
+  File "/usr/local/lib/python3.9/dist-packages/selenium/webdriver/remote/webdriver.py", line 269, in __init__
+    self.start_session(capabilities, browser_profile)
+  File "/usr/local/lib/python3.9/dist-packages/selenium/webdriver/remote/webdriver.py", line 360, in start_session
+    response = self.execute(Command.NEW_SESSION, parameters)
+  File "/usr/local/lib/python3.9/dist-packages/selenium/webdriver/remote/webdriver.py", line 425, in execute
+    self.error_handler.check_response(response)
+  File "/usr/local/lib/python3.9/dist-packages/selenium/webdriver/remote/errorhandler.py", line 247, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.SessionNotCreatedException: Message: session not created
+from timeout: Timed out receiving message from renderer: 600.000
+  (Session info: headless chrome=98.0.4758.106)
+Stacktrace:
+#0 0x000000ac3cec <unknown>
+#1 0x00000080ec50 <unknown>
+#2 0x0000007fb904 <unknown>
+#3 0x0000007fa954 <unknown>
+#4 0x0000007fabe8 <unknown>
+#5 0x0000007fa388 <unknown>
+#6 0x000000802a28 <unknown>
+#7 0x0000007fa33c <unknown>
+#8 0x0000007fb390 <unknown>
+#9 0x0000007fa954 <unknown>
+#10 0x0000007face4 <unknown>
+#11 0x0000007fac70 <unknown>
+#12 0x0000008016e0 <unknown>
+#13 0x0000007fa33c <unknown>
+#14 0x0000007fb390 <unknown>
+#15 0x0000007fa954 <unknown>
+#16 0x0000007fabe8 <unknown>
+#17 0x0000007fa388 <unknown>
+#18 0x0000007f5080 <unknown>
+#19 0x0000007fa33c <unknown>
+#20 0x0000007fa27c <unknown>
+#21 0x0000007f9db0 <unknown>
+#22 0x000000810044 <unknown>
+#23 0x000000865e38 <unknown>
+#24 0x00000085f184 <unknown>
+#25 0x000000836a18 <unknown>
+#26 0x000000837aa4 <unknown>
+#27 0x000000af4510 <unknown>
+#28 0x000000b0ab50 <unknown>
+#29 0x000000b0a884 <unknown>
+#30 0x000000b0b0ac <unknown>
+#31 0x000000af6510 <unknown>
+#32 0x000000b0b368 <unknown>
+#33 0x000000aea5bc <unknown>
+#34 0x000000b24140 <unknown>
+#35 0x000000b242b0 <unknown>
+#36 0x000000b3e90c <unknown>
+#37 0x0000b6f0e300 <unknown>
+#38 0x000000000000 <unknown>
+
+pi@raspberrypi:~/Thesis $

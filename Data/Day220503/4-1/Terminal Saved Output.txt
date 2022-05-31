@@ -1,0 +1,60 @@
+pi@raspberrypi:~/Thesis $ python3 seleniumscriptsuperior.py 
+Experiment started: 2022-05-03 12:26:13.149725
+script and time started at:  2022-05-03 12:33:13.497411
+script 1 run - time taken: 48.09274864196777
+script and time started at:  2022-05-03 12:36:21.850775
+script 2 run - time taken: 51.04175162315369
+script and time started at:  2022-05-03 12:39:33.145698
+script 3 run - time taken: 54.13209342956543
+script and time started at:  2022-05-03 12:42:47.532942
+script 4 run - time taken: 49.437499046325684
+script and time started at:  2022-05-03 12:45:57.209463
+script 5 run - time taken: 48.40818452835083
+script and time started at:  2022-05-03 12:49:05.846389
+script 6 run - time taken: 51.11110734939575
+script and time started at:  2022-05-03 12:52:17.214247
+script 7 run - time taken: 49.62064504623413
+script and time started at:  2022-05-03 12:55:27.084545
+^CTraceback (most recent call last):
+  File "/home/pi/Thesis/seleniumscriptsuperior.py", line 181, in <module>
+    selenium_script_2()
+  File "/home/pi/Thesis/seleniumscriptsuperior.py", line 100, in selenium_script_2
+    driver = webdriver.Chrome(options=options)
+  File "/usr/local/lib/python3.9/dist-packages/selenium/webdriver/chrome/webdriver.py", line 70, in __init__
+    super(WebDriver, self).__init__(DesiredCapabilities.CHROME['browserName'], "goog",
+  File "/usr/local/lib/python3.9/dist-packages/selenium/webdriver/chromium/webdriver.py", line 93, in __init__
+    RemoteWebDriver.__init__(
+  File "/usr/local/lib/python3.9/dist-packages/selenium/webdriver/remote/webdriver.py", line 269, in __init__
+    self.start_session(capabilities, browser_profile)
+  File "/usr/local/lib/python3.9/dist-packages/selenium/webdriver/remote/webdriver.py", line 360, in start_session
+    response = self.execute(Command.NEW_SESSION, parameters)
+  File "/usr/local/lib/python3.9/dist-packages/selenium/webdriver/remote/webdriver.py", line 423, in execute
+    response = self.command_executor.execute(driver_command, params)
+  File "/usr/local/lib/python3.9/dist-packages/selenium/webdriver/remote/remote_connection.py", line 333, in execute
+    return self._request(command_info[0], url, body=data)
+  File "/usr/local/lib/python3.9/dist-packages/selenium/webdriver/remote/remote_connection.py", line 355, in _request
+    resp = self._conn.request(method, url, body=body, headers=headers)
+  File "/usr/lib/python3/dist-packages/urllib3/request.py", line 78, in request
+    return self.request_encode_body(
+  File "/usr/lib/python3/dist-packages/urllib3/request.py", line 170, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+  File "/usr/lib/python3/dist-packages/urllib3/poolmanager.py", line 375, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 699, in urlopen
+    httplib_response = self._make_request(
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 445, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 440, in _make_request
+    httplib_response = conn.getresponse()
+  File "/usr/lib/python3.9/http/client.py", line 1347, in getresponse
+    response.begin()
+  File "/usr/lib/python3.9/http/client.py", line 307, in begin
+    version, status, reason = self._read_status()
+  File "/usr/lib/python3.9/http/client.py", line 268, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/usr/lib/python3.9/socket.py", line 704, in readinto
+    return self._sock.recv_into(b)
+KeyboardInterrupt
+
+pi@raspberrypi:~/Thesis $ 

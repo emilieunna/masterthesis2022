@@ -1,0 +1,24 @@
+pi@raspberrypi:~/Thesis $ python3 seleniumscriptsuperior.py
+Experiment started: 2022-04-29 16:32:11,304696
+script and time started at:  2022-04-29 16:39:11,616018
+script 1 run - time taken: 139,58493041992188
+script and time started at:  2022-04-29 16:43:51,384201
+script 2 run - time taken: 141,42605543136597
+script and time started at:  2022-04-29 16:48:33,067586
+script 3 run - time taken: 156,0668363571167
+script and time started at:  2022-04-29 16:53:29,392718
+script 4 run - time taken: 134,73350834846497
+script and time started at:  2022-04-29 16:58:04,371196
+script 5 run - time taken: 150,59417057037354
+script and time started at:  2022-04-29 17:02:55,208541
+script 6 run - time taken: 215,89146757125854
+script and time started at:  2022-04-29 17:08:51,260693
+script 7 run - time taken: 168,84409022331238
+script and time started at:  2022-04-29 17:14:00,340643
+script 8 run - time taken: 116,62872695922852
+script and time started at:  2022-04-29 17:18:17,225912
+script 9 run - time taken: 185,38815593719482
+script and time started at:  2022-04-29 17:23:42,876102
+script 10 run - time taken: 171,1596291065216
+Experiment done
+pi@raspberrypi:~/Thesis $

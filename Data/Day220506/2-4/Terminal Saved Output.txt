@@ -1,0 +1,47 @@
+pi@raspberrypi:~/Thesis $ python3 seleniumscriptsuperior.py 
+Experiment started: 2022-05-06 12:51:44.587231
+script and time started at:  2022-05-06 12:53:44.825659
+script 1 run - time taken: 27.546701431274414
+script and time started at:  2022-05-06 12:56:32.618643
+script 2 run - time taken: 26.444563150405884
+script and time started at:  2022-05-06 12:59:19.285273
+script 3 run - time taken: 27.096432209014893
+script and time started at:  2022-05-06 13:02:06.637221
+Traceback (most recent call last):
+  File "/home/pi/Thesis/seleniumscriptsuperior.py", line 253, in <module>
+    selenium_script_2()
+  File "/home/pi/Thesis/seleniumscriptsuperior.py", line 166, in selenium_script_2
+    driver.find_element(By.XPATH, "/html/body/div/div/div/div/main/article/div/p[1]/a").click()
+  File "/usr/local/lib/python3.9/dist-packages/selenium/webdriver/remote/webdriver.py", line 1248, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "/usr/local/lib/python3.9/dist-packages/selenium/webdriver/remote/webdriver.py", line 425, in execute
+    self.error_handler.check_response(response)
+  File "/usr/local/lib/python3.9/dist-packages/selenium/webdriver/remote/errorhandler.py", line 247, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div/div/div/div/main/article/div/p[1]/a"}
+  (Session info: headless chrome=98.0.4758.106)
+Stacktrace:
+#0 0x000000a13cec <unknown>
+#1 0x00000075ec50 <unknown>
+#2 0x000000792a6c <unknown>
+#3 0x000000792d5c <unknown>
+#4 0x0000007c3dcc <unknown>
+#5 0x0000007af300 <unknown>
+#6 0x0000007c1c78 <unknown>
+#7 0x0000007af184 <unknown>
+#8 0x000000786a18 <unknown>
+#9 0x000000787aa4 <unknown>
+#10 0x000000a44510 <unknown>
+#11 0x000000a5ab50 <unknown>
+#12 0x000000a5a884 <unknown>
+#13 0x000000a5b0ac <unknown>
+#14 0x000000a46510 <unknown>
+#15 0x000000a5b368 <unknown>
+#16 0x000000a3a5bc <unknown>
+#17 0x000000a74140 <unknown>
+#18 0x000000a742b0 <unknown>
+#19 0x000000a8e90c <unknown>
+#20 0x0000b6eee300 <unknown>
+#21 0x000000000000 <unknown>
+
+pi@raspberrypi:~/Thesis $ 
