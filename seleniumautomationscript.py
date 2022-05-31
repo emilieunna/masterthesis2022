@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
 
+# Copyright (c) 2022 Emilie Beske Unna-Lindhard & Nils Müllenborn - The code is free to use for anybody, but please reference our project when doing so.
+
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
@@ -19,7 +21,7 @@ def spike():
     # open both files
     with open('runtime-2.log','r') as firstfile, open('out.txt','w') as secondfile:
         # read content from first file
-        for line in firstfile:   
+        for line in firstfile:
              # write content to second file
              secondfile.write(line)
 
